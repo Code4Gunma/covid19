@@ -2,7 +2,7 @@
   <v-app class="app-print">
     <div v-if="loading" class="loader">
       <img src="https://www.pref.gunma.jp/contents/100016788.png" :alt="$t('群馬県')" />
-      <scale-loader color="#00A040" />
+      <scale-loader color="#3a1e87" />
     </div>
     <v-container v-else>
       <v-row align="center" class="PrintMeta">
