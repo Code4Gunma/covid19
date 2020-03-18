@@ -21,7 +21,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp'
+        content: 'https://code4gunma.netlify.com/'
       },
       {
         hid: 'twitter:card',
@@ -145,8 +145,8 @@ const config: Configuration = {
     hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '東京都 新型コロナウイルス感染症対策サイト',
-    theme_color: '#00a040',
+    name: '群馬県 新型コロナウイルス感染症対策サイト',
+    theme_color: '#3a1e87',
     background_color: '#ffffff',
     display: 'standalone',
     Scope: '/',
