@@ -51,7 +51,7 @@ export default Vue.extend({
             this.$t('各保健所にご相談ください'),
             '<a href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html" target="_blank" rel="noopener">' +
               this.$t(
-                '「新型コロナウイルス感染症にかかる相談窓口について」（東京都福祉保健局）'
+                '「新型コロナウイルス感染症にかかる相談窓口について」（群馬県）'
               ) +
               '</a>'
           ].join('<br />')
