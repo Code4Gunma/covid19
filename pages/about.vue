@@ -171,9 +171,9 @@
       </i18n>
     </TextCard>
     <TextCard :title="$t('お問い合わせ先（群馬県のHPサイトポリシーについて）')">
-      {{ $t('群馬県') }}<br />
+      {{ $t('https://www.pref.gunma.jp/07/b2110028.html') }}<br />
       {{ $t('電話') }}:
-      <a href="tel:03-5388-3085">03-5388-3085</a>
+      <a href="tel:027-226-2171">027-226-2171</a>
     </TextCard>
   </div>
 </template>
