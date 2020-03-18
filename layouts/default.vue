@@ -3,7 +3,7 @@
     <v-overlay v-if="loading" color="#F8F9FA" opacity="1" z-index="9999">
       <div class="loader">
         <img src="https://www.pref.gunma.jp/contents/100016788.png" alt="群馬県" />
-        <scale-loader color="#00A040" />
+        <scale-loader color="#3a1e87" />
       </div>
     </v-overlay>
     <div v-if="hasNavigation" class="appContainer">
@@ -84,27 +84,27 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`
+          href: `https://code4gunma.netlify.com/${this.$route.path}`
         }
       ],
       meta: [
         {
           hid: 'author',
           name: 'author',
-          content: this.$tc('東京都')
+          content: this.$tc('群馬県')
         },
         {
           hid: 'description',
           name: 'description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、群馬県が開設したものです。'
           )
         },
         {
           hid: 'og:site_name',
           name: 'og:site_name',
           content:
-            this.$t('東京都') +
+            this.$t('群馬県') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
@@ -114,7 +114,7 @@ export default Vue.extend({
           hid: 'og:title',
           name: 'og:title',
           content:
-            this.$t('東京都') +
+            this.$t('群馬県') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
@@ -124,7 +124,7 @@ export default Vue.extend({
           hid: 'og:description',
           name: 'og:description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、群馬県が開設したものです。'
           )
         },
         {
@@ -136,7 +136,7 @@ export default Vue.extend({
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
           content:
-            this.$t('東京都') +
+            this.$t('群馬県') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
